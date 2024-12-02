@@ -1,0 +1,155 @@
+body {
+    margin: 0;
+    padding: 0;
+background-color: #ffffff;
+}
+
+
+#ul1 {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    background-color: #083C4F;
+    color: #FFFFFF;
+    width: 100%;
+    height: 40px;
+    margin: 0;
+    padding-top: 25px;
+}
+#ul1 li{
+    padding-left: 25px;
+    padding-right: 25px;
+    font-size: 20px;
+}
+
+
+
+section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    padding-top: 56px;
+    padding-bottom:30px;
+    padding-left: 100px;
+    padding-right: 100px;
+    background-image: url(../imagens/Rectangle\ 13.svg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+section nav ul {
+    list-style-type: none;
+    display: flex;
+    font-size: 28px;
+    
+}
+
+section nav ul li{
+    padding-right: 25px;
+    padding-left: 25px;
+
+}
+
+section nav ul li:hover{
+    border-bottom: 2px solid rgb(5, 5, 5);
+    
+}
+
+nav h1{
+    padding-top: 192px ;
+    text-align: center;
+    padding-top: 0px;
+}
+#nav2{
+      
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 0px;
+}
+
+#navfoto1{
+    padding-left: 110px; 
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+#artigo1{
+    display:flex;
+    text-align: center;
+    font-size: 28px;
+    width: 80%;
+    border-radius: 42px;
+    box-shadow: 5px 5px 10px;
+    margin: 0 auto;
+    height: 420px;
+    margin-bottom: 100px;
+}
+#artigo2{
+    display:flex;
+    text-align: center;
+    font-size: 28px;
+    width: 80%;
+    border-radius: 42px;
+    box-shadow: 5px 5px 10px;
+    margin: 0 auto;
+    height: 420px;
+    background-color: rgba(147, 217,243, 70%) ;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-bottom: 100px;
+}
+#artigo3{
+    display:flex;
+    text-align: center;
+    font-size: 28px;
+    width: 80%;
+    border-radius: 42px;
+    box-shadow: 5px 5px 10px;
+    margin: 0 auto;
+    height: 420px;
+    margin-bottom: 100px;
+}
+#artigo4{
+    display:flex;
+    text-align: center;
+    font-size: 28px;
+    width: 80%;
+    border-radius: 42px;
+    box-shadow: 5px 5px 10px;
+    margin: 0 auto;
+    height: 420px;
+    background-color: rgba(147, 217,243, 70%) ;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-bottom: 100px;
+}
+#rodape{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    padding-top: 56px;
+    padding-bottom:30px;
+    padding-left: 100px;
+    padding-right: 100px;
+    background-color: #143746;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: #FFFFFF;
+}
+#rodape ul {
+    list-style-type: none;
+    line-height: 2;
+    padding: 10px 0;
+    font-size: 20px;
+}
+button{
+    border: 1px solid white;
+    background-color: #143746;
+    color: white;
+    padding: 15px;
+    border-radius: 5px;
+}
